@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.port {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.port .btnn i{
+    margin: 20px;
+    display: none;
+    /* visibility: hidden; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.navitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+}
+
+.navitems p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: black;
+}
+
+.segment {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.segment .login {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.segment .login p {
+    margin-left: 10px;
+}
+
+.segment .sign {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.segment .sign i {
+    color: white;
+}
+
+.segment .sign p {
+    margin-left: 10px;
+    color: white;
+}
+
+.radius {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.login:hover {
+    background-color: black;
+    color: white;
+}
+
+.sign:hover {
+    border: 3px solid white;
+    background-color: white;
+}
+
+.sign:hover p,
+.sign:hover i {
+    color: black;
+}
+
+.quote {
+    background-image: url(https://wallpapercrafter.com/th8001/628068-Food-and-Drink-Sauce-Food-Burger-fastfood-appetizing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.q-line {
+    padding-top: 20px;
+}
+
+.quote .q-line p,
+.q-line h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.gr-light {
+    background: linear-gradient(to right, gray, 25%, white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.f-order {
+    padding: 40px;
+    text-align: center;
+    background-color: black;
+}
+
+.f-content h1 {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.non-veg {
+    background-color: blanchedalmond;
+    padding: 40px;
+}
+
+.nv-topic h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.non-veg-fig {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fig-nv {
+    height: 200px;
+    margin: 30px 40PX;
+}
+
+.fig-nv>img {
+    border-radius: 100px;
+}
+
+.fig-nv p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: chocolate;
+}
+
+.veg {
+    background-color: lightgray;
+    padding: 40px;
+}
+
+.veg-topic h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.veg-fig {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fig-veg {
+    height: 200px;
+    margin: 30px 40px;
+}
+
+.fig-veg img {
+    border-radius: 100px;
+}
+
+.fig-veg p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: gray;
+}
+
+.contact {
+    padding: 30px 30px 10px;
+    background-color: #331D2C;
+    color: #EFE1D1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.c-title {
+    color: gray;
+    text-align: center;
+}
+
+.c-body {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.c-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.c-logo i {
+    font-size: 25px;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.getfrom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.apple,
+.android {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EFE1D1;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.apple i,
+.android i {
+    font-size: 30px;
+    color: #EFE1D1;
+}
+
+.line {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.line p,
+.line h3 {
+    color: #EFE1D1;
+}
+
+.rights {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.apple:hover,
+.android:hover {
+    background-color: white;
+}
+
+.apple:hover p,
+.apple:hover h3,
+.apple:hover i {
+    color: black;
+}
+
+.android:hover p,
+.android:hover h3,
+.android:hover i {
+    color: black;
+}
+
+@media (max-width : 800px) {
+
+    .nav .logo{
+        font-size: small;
+    }
+
+    .navitems p {
+        padding: 10px;
+        font-size: small;
+    }
+
+    .quote .q-line p,
+    .q-line h1 {
+        font-size: x-large;
+    }
+
+    .f-content h1 {
+        font-size: x-large;
+    }
+
+    .getfrom {
+        margin: 10px 0 0 0;
+    }
+}
+
+@media (max-width : 430px) {
+
+    .nav .logo{
+        font-size: small;
+    }
+
+    .navitems, .segment {
+        display: none;
+    }
+
+    .port .btnn i{       
+        display: block;
+    }
+
+    .port5 .contact .getfrom{
+        display: flex;
+        justify-content: center;
+    }
+
+    .apple , .android{
+        margin-top: 10px;
+    }
+}

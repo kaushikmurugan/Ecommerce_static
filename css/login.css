@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/IMAGE/vintage-old-rustic-cutlery-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
+
+.midbox{
+    width:420px;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    backdrop-filter: blur(40px);
+    margin:0px 10px;
+}
+
+.midbox h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.midbox .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.midbox .input-box input{
+    width: 100%;
+    background: transparent;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px 20px 20px ;
+}
+
+.input-box input::placeholder{
+    color: whitesmoke; 
+    font-variant: small-caps;
+}
+
+.input-box i{
+    position: absolute; 
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: large;
+}
+
+.forget{
+    display: flex;
+    justify-content: space-between;
+    font-variant: small-caps;
+    font-size: 17px;
+    padding:0px 20px;
+}
+
+.btn button{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    margin: 20px 0px;
+    cursor: pointer; 
+    font-variant: small-caps;
+}
+
+.register{
+    display: flex;
+    justify-content:center;
+    font-variant: small-caps;
+    padding: 0px 20px;
+}

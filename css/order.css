@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/IMAGE/vintage-old-rustic-cutlery-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+hr{
+    margin: 40px 0;
+}
+
+.orderport {
+    background: transparent;
+    width: 750px;
+    border-radius: 20px;
+    color: white;
+    padding: 40px;
+    border: 2px solid black;
+    backdrop-filter: blur(40px);
+    margin: 20px;
+}
+
+.heading h1{
+    text-align: center;
+}
+
+.ordertype {
+    margin: 20px 10px;
+    text-align: center;
+    color: white;
+}
+
+.ordertype .field {
+    margin: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.field .f1 label{
+    font-size: 19px;
+}
+
+.boxinput {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxinput .inputfield {
+    position: relative;
+    width: 45%;
+    margin: 15px 0;
+}
+
+.boxinput .inputfield input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 10px 10px 10px 40px;
+}
+
+ input::placeholder {
+    color: white;
+}
+
+.boxinput .inputfield i {
+    position: absolute;
+    top: 25%;
+    transform: translateX(-50%);
+    left: 20px;
+    font-size: 20PX;
+}
+
+.bord .inputfill {
+    position: relative;
+    margin: 15px 0;
+}
+
+.inputfill input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+    padding: 10px 10px 10px 40px;
+}
+
+.inputfill i {
+    position: absolute;
+    top: 25%;
+    transform: translateX(-50%);
+    left: 22px;
+    font-size: 20PX;
+}
+
+.o-foods {
+    width: 75%;
+    margin: 40px 100px;
+}
+
+.item1 h1,
+.item2 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.n-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.n-item label {
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.n-item input[type=number] {
+    border: 2px solid gray;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 60px;
+    font-size: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.t-quantity h1,
+.t-amount h1{
+    margin: 40px;
+    font-variant: small-caps;
+}
+
+.payments {
+    margin: 40px;
+}
+
+.payments h1 {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.p-method {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.p-btn {
+    text-align: center;
+}
+
+.p-btn button {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid lightgray;
+}
+
+@media (max-width:600px){
+    .orderport{
+        padding: 10px;
+        font-size: small;
+    }
+
+    .field .f1 label{
+        font-size: small;
+    }
+
+    .boxinput .inputfield, .bord{
+        width : 100%;
+        margin: 10px;
+    }
+
+    .bord{
+        padding: 0 20px 0 0;
+    }
+
+    .o-foods{
+        margin: 50px;
+    }
+
+    .item1, .item2{
+        margin: 30px 0px;
+    }
+    .orders{
+        width: 100%;
+    }
+
+    .div1{
+        display: flex;
+        align-items: center;
+    }
+
+    .n-item .div1 label {
+        font-size: medium;
+        margin: 0 0 0 10px;
+    }
+
+    .p-method{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .p-method .p1{
+        padding: 10px;
+    }
+
+}
