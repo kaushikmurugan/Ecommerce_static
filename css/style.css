@@ -25,7 +25,6 @@ img {
 .port .btnn i{
     margin: 20px;
     display: none;
-    /* visibility: hidden; */
 }
 
 .nav {
@@ -54,10 +53,14 @@ img {
     width: 75%;
 }
 
-.navitems p {
+.navitems a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     color: black;
+}
+
+.navitems a:hover{
+    color: white;
 }
 
 .segment {

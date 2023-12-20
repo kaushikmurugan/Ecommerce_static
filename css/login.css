@@ -97,7 +97,21 @@ a:hover{
 
 .register{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     font-variant: small-caps;
     padding: 0px 20px;
+}
+
+.back {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back a{
+    text-decoration: none;
+    color: white;
+}
+
+.back a:hover{
+    color: gray;
 }
